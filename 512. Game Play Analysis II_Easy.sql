@@ -1,3 +1,7 @@
+#Write an SQL query to report the device that is first logged in for each player.
+
+#Return the result table in any order.
+
 with 
 a1 as (
 select distinct player_id, min(event_date) as firstlog
