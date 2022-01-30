@@ -1,3 +1,5 @@
+#Write an SQL query to find the average daily percentage of posts that got removed after being reported as spam, rounded to 2 decimal places.
+
 #Thought: select all report & spam records, mark as 1
 # then join removals table to mark post_id which has been removed
 # it mentioned post_id is PK in second table, so no need to worry about some post_id and different remove_date situation. 
