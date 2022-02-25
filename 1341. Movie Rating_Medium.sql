@@ -14,6 +14,7 @@ order by count(movie_id) desc, name
 limit 1 )
 
 union all
+#union either one is ok 
 
 (select title as results
 from MovieRating
